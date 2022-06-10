@@ -10,7 +10,7 @@ public class isPalindrome {
         String reverseStr = "";
         int strLength = str.length();
 
-        for (int i = (strLength - 1); i >= 0; --i) {
+        for (int i = (strLength - 1); i >= 0; i--) {
             reverseStr = reverseStr + str.charAt(i);
         }
         if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
@@ -18,5 +18,6 @@ public class isPalindrome {
         } else {
             System.out.println(str + " is not Palindrome");
         }
+        scanner.close();
     }
 }
