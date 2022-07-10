@@ -43,5 +43,6 @@ public class Student {
         syntaxStudent.cry();
         collegeStudent.study();
         schoolStudent.sleep();
+
     }
 }
