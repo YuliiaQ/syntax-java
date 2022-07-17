@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Task2 {
     public static void main(String[] args) {
-        TreeSet <String> countries = new TreeSet<>();
+        Set <String> countries = new TreeSet<>();
         countries.add("Ukraine");
         countries.add("USA");
         countries.add("Mexico");
